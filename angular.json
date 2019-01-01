@@ -72,7 +72,10 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "front-end:build"
+            "browserTarget": "front-end:build",
+            "watchOptions": {
+              "poll": true
+            },
           }
         },
         "test": {
